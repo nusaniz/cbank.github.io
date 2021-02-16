@@ -17,13 +17,47 @@
   	color: white;
   }
 
+.wrapper {
+      margin: 0 auto;
+      /*display: flex;*/
+      /*justify-content: center;*/
+      border: 1px solid white;
+}
+
+.img {
+      margin: 0 auto;
+      border: 1px solid white;
+}
+
+ img {
+      margin: 0 auto;
+      display: block;
+      justify-content: center;
+      /*margin: 0.8rem;*/
+      border: 1px solid black;
+}
+
+.download {
+      text-align: center;
+      padding: 1rem 0;
+}
+
+a {
+      font-size: 40px;
+      text-transform: capitalize;
+      text-align: center;
+      margin: 0 auto;
+}
   </style>
 
 </head>
 
 <body>
 
-<a href="./data/design full.pdf">download pdf</a>
+<div class="wrapper">
+<div class="download"><a href="./data/design full.pdf">download pdf</a></div>
+
+<div class="img">
 <img src="./data/design full_001.jpg">
 <img src="./data/design full_002.jpg">
 <img src="./data/design full_003.jpg">
@@ -34,6 +68,11 @@
 <img src="./data/design full_008.jpg">
 <img src="./data/design full_009.jpg">
 <img src="./data/design full_010.jpg">
+</div>
+</div>
+
+
+
 
 
 </body>
